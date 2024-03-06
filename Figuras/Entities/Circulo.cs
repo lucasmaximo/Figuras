@@ -11,7 +11,6 @@ namespace Figuras.Entities
     {
         public double Raio { get; set; }
 
-        public Circulo() { }
         public Circulo(double raio, Cor cor) : base(cor)
         {
             Raio = raio;

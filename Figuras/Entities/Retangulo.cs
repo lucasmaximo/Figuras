@@ -12,7 +12,6 @@ namespace Figuras.Entities
         public double Altura { get; set; }
         public double Largura { get; set; }
 
-        public Retangulo() { }
         public Retangulo(double altura, double largura, Cor cor) :base(cor)
         {
             Altura = altura;

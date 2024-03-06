@@ -12,7 +12,6 @@ namespace Figuras.Entities
         public Cor Cor { get; set; }
         public List<Figura> Figuras { get; set; } = new List<Figura>();
 
-        public Figura() { }
         public Figura(Cor cor)
         {
             Cor = cor;
